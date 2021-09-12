@@ -12,6 +12,7 @@ const CreateBlog = () => {
             <div className="button-action">
                 <Button title="Save"/>
             </div>
+            <Gap height={20} />
         </div>
     )
 }

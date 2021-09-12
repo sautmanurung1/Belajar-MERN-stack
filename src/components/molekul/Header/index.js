@@ -5,8 +5,8 @@ const Header = () => {
     const history = useHistory();
     return (
         <div className="header">
-            <p className="logo-app">Belajar MERN-Blog</p>
-            <p className="menu-item" onClick={() => history.push('./login')}>Logout</p>
+            <p className="logo-app" onClick={() => history.push('/')}>Belajar MERN-Blog</p>
+            <p className="menu-item" onClick={() => history.push('/login')}>Logout</p>
         </div>
     )
 }

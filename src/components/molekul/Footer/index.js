@@ -1,10 +1,10 @@
 import React from 'react'
 import { ICDiscord, ICFacebook, ICGithub, ICInstagram, ICTelegram, LogoSaut } from '../../../assets'
-import './footer.scss'
-const Icon = ({img, link}) => {
+import './footer.scss'   
+const Icon = ({img,link}) => {
     return(
         <div className="icon-wrapper">
-            <img className="icon-medsos" src={img} alt="icon" />
+            <img className="icon-medsos" src={img} alt="icon" link={link} />
         </div>
     )
 }
